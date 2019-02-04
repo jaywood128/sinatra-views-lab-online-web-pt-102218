@@ -1,6 +1,6 @@
 require 'pry'
 class App < Sinatra::Base
-
+binding.pry
 date = DateTime.new
 
 	get '/' do
