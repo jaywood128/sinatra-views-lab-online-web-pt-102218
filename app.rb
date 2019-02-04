@@ -1,6 +1,6 @@
 require 'pry'
 class App < Sinatra::Base
-
+date.day = "Monday"
 date = DateTime.now
 binding.pry
 
