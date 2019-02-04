@@ -1,8 +1,6 @@
 require 'pry'
 class App < Sinatra::Base
 
-date = DateTime.now
-binding.pry
 
 	get '/' do
 		erb :index
